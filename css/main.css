@@ -66,13 +66,13 @@ blockquote {
   padding-right: 1rem;
   line-height: 1.3rem;
   margin: 0 auto;
-  color: #999;
 }
 
 .quote {
   font-family: "Crimson Text";
   font-style: normal;
   font-size: 1.125rem;
+  color: #999;
 }
 
 article ol {
@@ -83,4 +83,8 @@ article ol {
   padding-right: 1rem;
   line-height: 1.3rem;
   color: #222;
+}
+
+article p:last-child {
+  border-bottom: solid 2px;
 }
