@@ -25,29 +25,20 @@ article {
 
 article header {
   font-size: 1.125rem;
-  padding-left: 1em;
-  padding-right: 1em;
+  border-bottom: 2px solid #222;
   color: #222;
 }
 
 article h1 {
   font-size: 1.5rem;
-  font-style: normal;
-  font-weight: bold;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  color: #222;
-  margin-bottom: 0;
+  font-weight: normal;
+  margin: 0;
 }
 
 article header p {
   font-family: "Crimson Text";
   font-style: italic;
   font-size: 1.125rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  border-bottom: solid 2px;
-  margin-bottom: 1.3px;
   color: #555;
 }
 
@@ -55,16 +46,10 @@ article p {
   font-family: "Crimson Text";
   font-style: normal;
   font-size: 1.125rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  line-height: 1.3rem;
   color: #222;
 }
 
 blockquote {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  line-height: 1.3rem;
   margin: 0 auto;
 }
 
@@ -79,13 +64,9 @@ article ol {
   font-family: "Crimson Text";
   font-style: normal;
   font-size: 1.125rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  line-height: 1.3rem;
   color: #222;
 }
 
 article p:last-child {
-  border-bottom: solid;
-  border-radius: 2px;
+  border-bottom: 2px solid #222;
 }
