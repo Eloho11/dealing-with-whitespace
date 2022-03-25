@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Crimson;
+  font-style: normal;
+  font-size: 1.125rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #222;
+}
+article {
+  font-family: Crimson;
+  font-style: normal;
+  font-size: 1.125rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #222;
+}
+article header {
+  font-size: 1.125rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #222;
+}
+
+article h1 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #222;
+}
+
+article header p {
+  font-family: Crimson;
+  font-style: italic;
+  font-size: 1.125rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 1.3em;
+  border-bottom: solid 2px;
+  color: #555
+}
+
+article p {
+  font-family: Crimson;
+  font-style: normal;
+  font-size: 1.125rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 1.3em;
+  color: #222;
+}
+
+blockquote {
+  font-family: Crimson;
+  font-style: normal;
+  font-size: 1.125rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 1.3em;
+  margin: 0 auto;
+  color: #999
+}
+
+article ol {
+  font-family: Crimson;
+  font-style: normal;
+  font-size: 1.125rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 1.3em;
+  border-bottom: solid 2px;
+  color: #222;
+}
