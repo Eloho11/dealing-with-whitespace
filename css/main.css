@@ -7,17 +7,15 @@ html {
 }
 
 body {
-  font-family: Crimson Text;
+  font-family: "Crimson Text";
   font-style: normal;
   font-size: 1.125rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin: inherit 1em;
   color: #222;
+  margin: 1em;
 }
 
 article {
-  font-family: Crimson Text;
+  font-family: "Crimson Text";
   font-style: normal;
   font-size: 1.125rem;
   padding-left: 1rem;
@@ -42,44 +40,47 @@ article h1 {
 }
 
 article header p {
-  font-family: Crimson Text;
+  font-family: "Crimson Text";
   font-style: italic;
   font-size: 1.125rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  line-height: 1.3em;
   border-bottom: solid 2px;
-  color: #555
+  line-height: 1.3rem;
+  color: #555;
 }
 
 article p {
-  font-family: Crimson Text;
+  font-family: "Crimson Text";
   font-style: normal;
   font-size: 1.125rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  line-height: 1.3em;
+  line-height: 1.3rem;
+  border-bottom: solid 2px;
   color: #222;
 }
 
-blockquote .quote {
-  font-family: Crimson Text;
-  font-style: normal;
-  font-size: 1.125rem;
+blockquote {
   padding-left: 1rem;
   padding-right: 1rem;
   line-height: 1.3rem;
   margin: 0 auto;
-  color: #999
+  color: #999;
+}
+
+.quote {
+  font-family: "Crimson Text";
+  font-style: normal;
+  font-size: 1.125rem;
 }
 
 article ol {
-  font-family: Crimson Text;
+  font-family: "Crimson Text";
   font-style: normal;
   font-size: 1.125rem;
   padding-left: 1rem;
   padding-right: 1rem;
   line-height: 1.3rem;
-  border-bottom: solid 2px;
   color: #222;
 }
