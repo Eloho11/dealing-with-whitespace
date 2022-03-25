@@ -11,7 +11,7 @@ body {
   font-style: normal;
   font-size: 1.125rem;
   color: #222;
-  margin: 1em;
+  margin: 0;
 }
 
 article {
@@ -25,8 +25,8 @@ article {
 
 article header {
   font-size: 1.125rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1em;
+  padding-right: 1em;
   color: #222;
 }
 
@@ -57,7 +57,6 @@ article p {
   padding-left: 1rem;
   padding-right: 1rem;
   line-height: 1.3rem;
-  border-bottom: solid 2px;
   color: #222;
 }
 
@@ -83,4 +82,8 @@ article ol {
   padding-right: 1rem;
   line-height: 1.3rem;
   color: #222;
+}
+
+article p:last-child {
+  border-bottom: solid 2px;
 }
